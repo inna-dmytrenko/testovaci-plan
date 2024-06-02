@@ -2,11 +2,11 @@
 
 <h1>Three Foxes Lounge</h1>
 
-Testovací plán
+<h2>Testovací plán</h2>
 
-Debug Divas
+<h2>Debug Divas</h2>
 
-Hackathon 2024
+<h2>Hackathon 2024</h2>
 
   
   
