@@ -41,7 +41,7 @@ Obsah
 [3.2.2 Strategické plánování pro budoucí verze a aktualizace aplikace](#322-strategické-plánování-pro-budoucí-verze-a-aktualizace-aplikace)
 
 [3.2.3 Potenciální rizika testovacího procesu](#323-potenciální-rizika-testovacího-procesu)
-
+<br>
 # 1 Úvod 
 
 ## 1.1 Obecné informace o projektu
