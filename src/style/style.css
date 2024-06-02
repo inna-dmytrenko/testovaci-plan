@@ -107,6 +107,16 @@ h3 {
   background-color: #ff0000; /* red */
   margin-right: 8px;
 }
+.high {
+  display: flex;
+  align-items: center;
+}
+.high .color-box {
+  width: 16px;
+  height: 16px;
+  background-color: #ff9900; /* red */
+  margin-right: 8px;
+}
 .yellow .color-box {
   width: 16px;
   height: 16px;
@@ -116,8 +126,6 @@ h3 {
 }
 .yellow {
   display: flex;
-  text-align: center;
-  justify-content: center;
   align-items: center;
 }
 .blue .color-box {
@@ -128,9 +136,8 @@ h3 {
 }
 .blue {
   display: flex;
-  text-align: center;
   align-items: center;
 }
-.table{
-  border: 1 solid black;
+.table, td, tr{
+  border: 1px solid black;
 }

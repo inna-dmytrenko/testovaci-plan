@@ -165,11 +165,17 @@ Projekt je definován ve spolupráci zákazníka a Product Ownera, přičemž ob
   </tr>
   <tr>
     <td>Payment by Check</td>
-    <td >High</td>
+    <td ><div class="high">
+    <div class="color-box"></div>
+    <span>High</span>
+  </div></td>
   </tr>
   <tr>
     <td>Money transfer</td>
-    <td >High</td>
+    <td ><div class="high">
+    <div class="color-box"></div>
+    <span>High</span>
+  </div></td>
   </tr>
   <tr>
     <td>Additional facilities</td>
@@ -204,19 +210,31 @@ Projekt je definován ve spolupráci zákazníka a Product Ownera, přičemž ob
   <tr>
     <td rowspan="6">Accounts – login/registration</td>
     <td>Authentication page</td>
-    <td >High</td>
+    <td ><div class="high">
+    <div class="color-box"></div>
+    <span>High</span>
+  </div></td>
   </tr>
   <tr>
     <td>Login</td>
-    <td >High</td>
+    <td ><div class="high">
+    <div class="color-box"></div>
+    <span>High</span>
+  </div></td>
   </tr>
   <tr>
     <td>Log out</td>
-    <td >High</td>
+    <td ><div class="high">
+    <div class="color-box"></div>
+    <span>High</span>
+  </div></td>
   </tr>
   <tr>
     <td>My account page</td>
-    <td >High</td>
+    <td ><div class="high">
+    <div class="color-box"></div>
+    <span>High</span>
+  </div></td>
   </tr>
   <tr>
     <td>Create account</td>
@@ -233,11 +251,17 @@ Projekt je definován ve spolupráci zákazníka a Product Ownera, přičemž ob
   <tr>
     <td rowspan="5">My Account</td>
     <td>Order history and details</td>
-    <td >High</td>
+    <td ><div class="high">
+    <div class="color-box"></div>
+    <span>High</span>
+  </div></td>
   </tr>
   <tr>
     <td>Order details</td>
-    <td >High</td>
+    <td ><div class="high">
+    <div class="color-box"></div>
+    <span>High</span>
+  </div></td>
   </tr>
   <tr>
     <td>Credit slips</td>
@@ -270,7 +294,10 @@ Projekt je definován ve spolupráci zákazníka a Product Ownera, přičemž ob
   <tr>
     <td rowspan="7">Shared and Common Features</td>
     <td>Footer section</td>
-    <td >High</td>
+    <td ><div class="high">
+    <div class="color-box"></div>
+    <span>High</span>
+  </div></td>
   </tr>
   <tr>
     <td>Header section</td>
@@ -348,14 +375,14 @@ Projekt je definován ve spolupráci zákazníka a Product Ownera, přičemž ob
   <tr>
     <td rowspan="3">Non functional requirements</td>
     <td>Website protocol</td>
-    <td style="background-color: #ff0000; color: white;"><div class="highest">
+    <td ><div class="highest">
     <div class="color-box"></div>
     <span>Highest</span>
   </div></td>
   </tr>
   <tr>
     <td>GDPR</td>
-    <td style="background-color: #ff0000; color: white;"><div class="highest">
+    <td ><div class="highest">
     <div class="color-box"></div>
     <span>Highest</span>
   </div></td>
