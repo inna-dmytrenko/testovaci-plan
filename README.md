@@ -710,7 +710,7 @@ Níže jsou uvedeny klíčové oblasti zaměřené na zlepšení a strategické 
   - Nutné pro identifikaci slabých míst a oblastí, které potřebují zlepšení.
   - Používat tyto analýzy k formulování konkrétních kroků pro zvýšení kvality softwaru.
 
-3.  Aktualizace testovacích případů a strategií:
+2.  Aktualizace testovacích případů a strategií:
 
 - Na základě požadavků zákazníka průběžně aktualizovat testovací případy a přizpůsobovat testovací strategii.
 
