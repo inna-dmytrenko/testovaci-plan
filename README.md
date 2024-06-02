@@ -59,8 +59,7 @@ Tento testovací plán detailně popisuje postupy a metody, které budou použit
 ## 1.2 Cíle testovacího plánu
 
     - Identifikace informací o projektu a softwarových komponent, které budou testovány
-    - Doporučení a popis testovacích strategií, které budou použity během testování
-    - Identifikace potřebných zdrojů (personál, nástroje) a odhad úsilí potřebného k testování (estimace)
+    - Doporučení a popis testovacích postupů, které budou použity během testování
     - Vytvoření seznamu výstupů (dokumentů) z testování projektu
     - Návrh testovací strategie z dlouhodobého hlediska (budoucnost a udržitelnost projektu)
 
@@ -422,52 +421,35 @@ Zhruba týden před konáním Hackathonu jsme naplánovali schůzku spolu s naš
 2.  Příprava podkladů a dokumentace:
 
     a. Sdílený dokument:
-
       - Vzorové šablony pro test case a bug report
-
       - Myšlenková mapa
-
       - Struktura složek v Postmanu pro případné API testy
-
       - Shrnutí pravidel odsouhlasených během uplynulých tří sprintů
-
       - Na co si dávat pozor při reportování v systému Jira
-
       - Jak efektivně pojmenovávat test case a bug report, aby byly snadno pochopitelné a předešlo se duplicitám
-
       - Odkaz na uvedený [Checklist](https://docs.google.com/spreadsheets/d/15ME-jIUTQBHlJ_v-eYZdHrpyr3_4OLuc/edit#gid=1696534826)
 
     d. Individuální příprava
-
       - Každá z nás se zaměřila na oblasti, které ji nejvíce zajímaly z hard
       skills, které jsme se v akademii učily, a ty jsme v rámci našich
       možností dále rozvíjely
 
     c. Připravené základní podklady s ohledem na neznalost zadání:
-
       - Poznámky k testování SQL
       - Requesty pro API
       - Šablony pro automatizované testy
       - Tabulky pro risk-based analýzu
 
 3.  Individuální seznámení s aplikací
-
       - Doba trvání: minimálně dvě hodiny
-    
       - Aktivity:
-
       - Prostředí aplikace a analýza aplikace, exploratory testing
-
       - Dokumentace v systému Jira
-
       - Prostudování dostupných podkladů
-
       - Příprava materiálů potřebných pro testování
 
 4.  Předem nastavený proces
-
       - Stand-upy po cca 45 minutách maximálně soustředěné práce
-      
       - Hlídání délky trvání stand-upu a neodbíhání od témat společných všem
 
 
@@ -505,8 +487,8 @@ Analýza aplikace počíná prostudováním obchodních a technických požadavk
       Výsledky testů jsou vyhodnoceny, prodiskutovány a schváleny.<br>
       Produkt nemá otevřené závažné chyby bránící nasazení.<br>
       Předměty na otestování aplikace a zaprotokolování chyb předá vývojáři testovacích scénářů nebo ten, který je znovu zprovoznitelný.<br>
-      <span style="color:blue;">Aplikace je responzivní (i pro mobilní zařízení).</span><br>
-      <span style="color:green;">Aplikace je bezpečná.</span>
+      Aplikace je responzivní (i pro mobilní zařízení)<br>
+      Aplikace je bezpečná.
     </td>
   </tr>
 </table>
@@ -627,11 +609,14 @@ Hlavním cílem je test těch komponent aplikace, které jsou označeny jako vys
   </tr>
   <tr>
     <td style="background-color: #ffffcc;">Doplňkové</td>
-    <td>DevTools<br>Chat GPT v. 4.0<br>Codeium – doplněk pro VS Code</td>
+    <td>DevTools<br>Chat GPT v. 4.0<br>Codeium – doplněk pro VS Code<br>Exploratory Testing Chrome Extension</td>
   </tr>
 </table>
 
 ### 3.1.4 Seznam prohlížečů a zařízení pro testování
+
+Jelikož klient neměl specifické požadavky na testování aplikace v určitých prohlížečích (ověřeno u PO), jako základní prohlížeč jsme používaly Chrome. K němu jsme přidaly Safari, Edge a Firefox. Tato volba vycházela z aktuálních dat týkajících se používání prohlížečů ve světě. (Data z února 2024 uvádějí následující údaje: Chrome 65 % trhu, Safari 18 %, Edge 5 % a Firefox 3 %.
+Zdroj: https://www.oberlo.com/statistics/browser-market-share)
 
 <div style="display: flex;">
   <table class="table" cellpadding="10" cellspacing="0" style="border-collapse: collapse; margin-right: 20px;">
@@ -710,7 +695,7 @@ Níže jsou uvedeny klíčové oblasti zaměřené na zlepšení a strategické 
   - Nutné pro identifikaci slabých míst a oblastí, které potřebují zlepšení.
   - Používat tyto analýzy k formulování konkrétních kroků pro zvýšení kvality softwaru.
 
-2.  Aktualizace testovacích případů a strategií:
+3.  Aktualizace testovacích případů a strategií:
 
 - Na základě požadavků zákazníka průběžně aktualizovat testovací případy a přizpůsobovat testovací strategii.
 
