@@ -4,23 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Doc Debug Divas</title>
-    <link rel="stylesheet" href="./src/style/normalize.css" />
+    <!-- <link rel="stylesheet" href="./src/style/normalize.css" /> -->
     <link rel="stylesheet" href="./src/style/style.css" />
-     <link rel="stylesheet" href="" />
+
     <link
       rel="icon"
       type="image/x-icon"
-      href="./src/assets/favicon/Debug_Divas.png"
+      href="./Debug_Divas.png"
     />
   </head>
 
   <body>
     <div class="wrapper">
-      <!-- <h1>Dokumentation</h1> -->
-      <img src="./src/assets/image/images.png" alt="" />
-
-      
+      <div id="content"></div>
+      <script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script>
+      <script>
+        fetch('README.md')
+          .then(response => response.text())
+          .then(text => {
+            var converter = new showdown.Converter();
+            var html = converter.makeHtml(text);
+            document.getElementById('content').innerHTML = html;
+          });
+      </script>
     </div>
   </body>
 </html>
-

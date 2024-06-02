@@ -1,6 +1,6 @@
 
 
-Three Foxes Lounge
+<h1>Three Foxes Lounge</h1>
 
 Testovací plán
 
