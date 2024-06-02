@@ -1,124 +1,136 @@
 body {
-    margin: 0;
-  font-family: 'Fira Sans', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
-  }
-  
-  html {
-    box-sizing: border-box;
-  }
-  
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit;
-  }
-  
-  ul {
-    /* list-style: none; */
-    padding: 0;
-    margin: 0;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p {
-    margin: 0;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  address {
-    font-style: normal;
-  }
-  
-  img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-  
-  button {
-    cursor: pointer;
-  }
-  
-  a {
-    text-decoration: none;
-    cursor: pointer;
-  }
-  img{
-    margin: 0 auto;
-  }
-  .wrapper{
-    width: 1280px;
+  margin: 0;
+  font-family: "Fira Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+ul {
+  /* list-style: none; */
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+img {
+  margin: 0 auto;
+}
+.wrapper {
+  width: 1280px;
   margin: 0 auto;
   background: #fff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
- 
-  }
-
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 20px;
-    background-color: #f4f4f4;
 }
-h1, h2, h3 {
-    color: #333;
-    text-align: center;
 
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
 }
-.section{
+h1,
+h2,
+h3 {
+  color: #333;
+  text-align: center;
+}
+.section {
   max-width: 500px;
   text-align: center;
-margin: 0 auto;
-background-color: aqua;
+  margin: 0 auto;
+  background-color: aqua;
 }
 .container {
-   
 }
 .code {
-    background: #eee;
-    padding: 10px;
-    border-radius: 4px;
-    font-family: 'Courier New', Courier, monospace;
+  background: #eee;
+  padding: 10px;
+  border-radius: 4px;
+  font-family: "Courier New", Courier, monospace;
 }
-/* table, th, td {
-  border: 1px solid black;
-} */
-table {
-  /* font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  font-size: 24px;
-  display: table-column-group; */
-  /* display: table-column; */
+.highest {
+  display: flex;
+  align-items: center;
 }
-/* ol { */
-  /* counter-reset: subsection; Обнуление счетчика для каждого нового подраздела */
-  /* list-style-type: none; Отключение стандартной нумерации, так как мы будем формировать номера сами */
-/* } */
+.highest .color-box {
+  width: 16px;
+  height: 16px;
+  background-color: #ff0000; /* red */
+  margin-right: 8px;
+}
+.yellow .color-box {
+  width: 16px;
+  height: 16px;
 
-/* li { */
-  /* display: block; Каждый элемент списка представляется как отдельный блок */
-/* } */
-
-/* li::before { */
-  /* counter-increment: subsection; Увеличение значения счетчика для каждого элемента списка */
-  /* content: "1." counter(subsection) ". "; Форматирование вывода номера элемента */
-/* } */
+  background-color: #ffff00; /* red */
+  margin-right: 8px;
+}
+.yellow {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.blue .color-box {
+  width: 16px;
+  height: 16px;
+  background-color: #99a0db; /* red */
+  margin-right: 8px;
+}
+.blue {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.table{
+  border: 1 solid black;
+}
