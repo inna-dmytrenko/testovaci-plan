@@ -506,10 +506,6 @@ Analýza aplikace počíná prostudováním obchodních a technických požadavk
       <span style="color:green;">Aplikace je bezpečná.</span>
     </td>
   </tr>
-  <tr>
-    <td><strong>Akceptační kritéria:</strong></td>
-    <td style="background-color: #ccffcc;"><strong>DOPLNIT</strong></td>
-  </tr>
 </table>
 
 Hlavním cílem je test těch komponent aplikace, které jsou označeny jako vysoce prioritní a souvisejí se základní funkčností aplikace. Jedná se konkrétně o následující user stories, ke kterým bude přiřazen konkrétní člen týmu:
