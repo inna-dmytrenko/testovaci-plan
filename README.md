@@ -406,51 +406,51 @@ Naopak dlouhodobý horizont se soustředí na udržitelnost a rozvoj aplikace v 
 
 Zhruba týden před konáním Hackathonu jsme naplánovali schůzku spolu s naším mentorem a diskutovali o týmové strategii. Nakonec jsme se dohodli na následujících bodech:
 
-1.  Nebudeme mít SCRUM Mastera
+  1.  Nebudeme mít SCRUM Mastera
 
-    a. Vyhovovala nám definice SCRUM týmu jako samořiditelné jednotky s důrazem na vzájemnou spolupráci. V rámci Digitální akademie jsme absolvovaly tři sprinty, během nichž jsme zjistily, že v našich podmínkách SCRUM Master neplní roli tak, jak je obvykle definována (tj. spíše jako kouč). Tři z nás měly možnost si tuto roli během sprintů vyzkoušet. Vzhledem k nedostatku zkušeností s touto seniorní pozicí jsme však v některých sprintech nechtěně sklouzly k tomu, že SCRUM Master fungoval spíše jako projektový manažer, který zadává úkoly. Tohoto přístupu jsme se chtěly vyvarovat.
+      a. Vyhovovala nám definice SCRUM týmu jako samořiditelné jednotky s důrazem na vzájemnou spolupráci. V rámci Digitální akademie jsme absolvovaly tři sprinty, během nichž jsme zjistily, že v našich podmínkách SCRUM Master neplní roli tak, jak je obvykle definována (tj. spíše jako kouč). Tři z nás měly možnost si tuto roli během sprintů vyzkoušet. Vzhledem k nedostatku zkušeností s touto seniorní pozicí jsme však v některých sprintech nechtěně sklouzly k tomu, že SCRUM Master fungoval spíše jako projektový manažer, který zadává úkoly. Tohoto přístupu jsme se chtěly vyvarovat.
 
-    b. Zohlednily jsme také skutečnost, že Hackathon je jednodenní projekt,
-    a proto nebyla role SCRUM Mastera tak nezbytná. Namísto toho jsme
-    potřebovaly maximalizovat počet člověkohodin věnovaných samotnému
-    testování a souvisejícím činnostem. Na druhou stranu jsme již měly
-    zkušenost z předchozích sprintů a dobře jsme se navzájem znaly, což
-    nám umožnilo efektivně využít naše dovednosti a vědět, na koho se
-    můžeme v konkrétních situacích obrátit.
+      b. Zohlednily jsme také skutečnost, že Hackathon je jednodenní projekt,
+      a proto nebyla role SCRUM Mastera tak nezbytná. Namísto toho jsme
+      potřebovaly maximalizovat počet člověkohodin věnovaných samotnému
+      testování a souvisejícím činnostem. Na druhou stranu jsme již měly
+      zkušenost z předchozích sprintů a dobře jsme se navzájem znaly, což
+      nám umožnilo efektivně využít naše dovednosti a vědět, na koho se
+      můžeme v konkrétních situacích obrátit.
 
-2.  Příprava podkladů a dokumentace:
+  2.  Příprava podkladů a dokumentace:
 
-    a. Sdílený dokument:
-      - Vzorové šablony pro test case a bug report
-      - Myšlenková mapa
-      - Struktura složek v Postmanu pro případné API testy
-      - Shrnutí pravidel odsouhlasených během uplynulých tří sprintů
-      - Na co si dávat pozor při reportování v systému Jira
-      - Jak efektivně pojmenovávat test case a bug report, aby byly snadno pochopitelné a předešlo se duplicitám
-      - Odkaz na uvedený [Checklist](https://docs.google.com/spreadsheets/d/15ME-jIUTQBHlJ_v-eYZdHrpyr3_4OLuc/edit#gid=1696534826)
+      a. Sdílený dokument:
+        - Vzorové šablony pro test case a bug report
+        - Myšlenková mapa
+        - Struktura složek v Postmanu pro případné API testy
+        - Shrnutí pravidel odsouhlasených během uplynulých tří sprintů
+        - Na co si dávat pozor při reportování v systému Jira
+        - Jak efektivně pojmenovávat test case a bug report, aby byly snadno pochopitelné a předešlo se duplicitám
+        - Odkaz na uvedený [Checklist](https://docs.google.com/spreadsheets/d/15ME-jIUTQBHlJ_v-eYZdHrpyr3_4OLuc/edit#gid=1696534826)
 
-    d. Individuální příprava
-      - Každá z nás se zaměřila na oblasti, které ji nejvíce zajímaly z hard
-      skills, které jsme se v akademii učily, a ty jsme v rámci našich
-      možností dále rozvíjely
+      d. Individuální příprava
+        - Každá z nás se zaměřila na oblasti, které ji nejvíce zajímaly z hard
+        skills, které jsme se v akademii učily, a ty jsme v rámci našich
+        možností dále rozvíjely
 
-    c. Připravené základní podklady s ohledem na neznalost zadání:
-      - Poznámky k testování SQL
-      - Requesty pro API
-      - Šablony pro automatizované testy
-      - Tabulky pro risk-based analýzu
+      c. Připravené základní podklady s ohledem na neznalost zadání:
+        - Poznámky k testování SQL
+        - Requesty pro API
+        - Šablony pro automatizované testy
+        - Tabulky pro risk-based analýzu
 
-3.  Individuální seznámení s aplikací
-      - Doba trvání: minimálně dvě hodiny
-      - Aktivity:
-      - Prostředí aplikace a analýza aplikace, exploratory testing
-      - Dokumentace v systému Jira
-      - Prostudování dostupných podkladů
-      - Příprava materiálů potřebných pro testování
+  3.  Individuální seznámení s aplikací
+        - Doba trvání: minimálně dvě hodiny
+        - Aktivity:
+        - Prostředí aplikace a analýza aplikace, exploratory testing
+        - Dokumentace v systému Jira
+        - Prostudování dostupných podkladů
+        - Příprava materiálů potřebných pro testování
 
-4.  Předem nastavený proces
-      - Stand-upy po cca 45 minutách maximálně soustředěné práce
-      - Hlídání délky trvání stand-upu a neodbíhání od témat společných všem
+  4.  Předem nastavený proces
+        - Stand-upy po cca 45 minutách maximálně soustředěné práce
+        - Hlídání délky trvání stand-upu a neodbíhání od témat společných všem
 
 
 ### 3.1.2 Stanovení cílů a rozsahu testování
@@ -658,31 +658,31 @@ Zdroj: https://www.oberlo.com/statistics/browser-market-share)
 
 ### 3.1.5 Testovací postup
 
-1.  Příprava testovacích případů:
+  1.  Příprava testovacích případů:
 
-    - Vytváření testovacích scénářů na základě požadavků.
-    - Psaní podrobných testovacích případů s jasnými vstupy, kroky a očekávanými výsledky.
-    - Vytvoření requestů pro testování na API vrstvě
-    - Vytvoření automatizovaných testů
+        - Vytváření testovacích scénářů na základě požadavků.
+        - Psaní podrobných testovacích případů s jasnými vstupy, kroky a očekávanými výsledky.
+        - Vytvoření requestů pro testování na API vrstvě
+        - Vytvoření automatizovaných testů
 
-2.  Provedení testů:
+  2.  Provedení testů:
 
-    - Funkční testování: Ověření, že všechny funkce softwaru fungují podle specifikací.
-    - Testování kompatibility: Ověření, že software funguje správně na různých webových prohlížečích a různých zařízeních.
-    - Testování bezpečnosti: Ověření protokolu webové aplikace a právních norem v souvislosti s cílem aplikace.
-    - Manuální provádění testovacích případů podle předem definovaných kroků.
-    - Spuštění automatizovaných testů.
-    - Dokumentace výsledků každého testovacího případu.
+        - Funkční testování: Ověření, že všechny funkce softwaru fungují podle specifikací.
+        - Testování kompatibility: Ověření, že software funguje správně na různých webových prohlížečích a různých zařízeních.
+        - Testování bezpečnosti: Ověření protokolu webové aplikace a právních norem v souvislosti s cílem aplikace.
+        - Manuální provádění testovacích případů podle předem definovaných kroků.
+        - Spuštění automatizovaných testů.
+        - Dokumentace výsledků každého testovacího případu.
 
-3.  Zaznamenání chyb:
+  3.  Zaznamenání chyb:
 
-    - Identifikace a dokumentace chyb a nedostatků.
-    - Vytváření podrobných bug reportů s kroky k replikaci, očekávaným a aktuálním výsledkem a prioritou chyby.
+        - Identifikace a dokumentace chyb a nedostatků.
+        - Vytváření podrobných bug reportů s kroky k replikaci, očekávaným a aktuálním výsledkem a prioritou chyby.
 
-4.  Příprava dokumentace:
+  4.  Příprava dokumentace:
 
-    - Sestavení zprávy o výsledcích testování, včetně testovacího plánu a hlášení o chybách.
-    - Shrnutí klíčových nálezů, metrik a doporučení.
+        - Sestavení zprávy o výsledcích testování, včetně testovacího plánu a hlášení o chybách.
+        - Shrnutí klíčových nálezů, metrik a doporučení.
 
 ## 3.2 Dlouhodobý plán projektu
 
@@ -690,44 +690,44 @@ Níže jsou uvedeny klíčové oblasti zaměřené na zlepšení a strategické 
 
 ### 3.2.1 Kontinuální zlepšování
 
-1.  Analýza výsledků testování:
+  1. Analýza výsledků testování:
 
-  - Nutné pro identifikaci slabých míst a oblastí, které potřebují zlepšení.
-  - Používat tyto analýzy k formulování konkrétních kroků pro zvýšení kvality softwaru.
+        - Nutné pro identifikaci slabých míst a oblastí, které potřebují zlepšení.
+        - Používat tyto analýzy k formulování konkrétních kroků pro zvýšení kvality softwaru.
 
-3.  Aktualizace testovacích případů a strategií:
+  2.  Aktualizace testovacích případů a strategií:
 
-- Na základě požadavků zákazníka průběžně aktualizovat testovací případy a přizpůsobovat testovací strategii.
+        - Na základě požadavků zákazníka průběžně aktualizovat testovací případy a přizpůsobovat testovací strategii.
 
 ### 3.2.2 Strategické plánování pro budoucí verze a aktualizace aplikace
 
-1.  Stanovení kritérií kvality
+ 1.  Stanovení kritérií kvality
 
-- Produkt musí fungovat v souladu s požadavky a funkční specifikací
-- Konečná verze projektu nesmí obsahovat kritické a blokující chyby.
+        - Produkt musí fungovat v souladu s požadavky a funkční specifikací
+        - Konečná verze projektu nesmí obsahovat kritické a blokující chyby.
 
-2.  Definování postupů pro efektivní a kontinuální testování:
+ 2.  Definování postupů pro efektivní a kontinuální testování:
 
-- Vytvoření a udržování procesů, které zajistí konzistentní a efektivní testování všech verzí aplikace.
-- Zajištění, že tyto procesy podporují vysokou kvalitu a spolehlivost aplikace.
+        - Vytvoření a udržování procesů, které zajistí konzistentní a efektivní testování všech verzí aplikace.
+        - Zajištění, že tyto procesy podporují vysokou kvalitu a spolehlivost aplikace.
 
-3.  Identifikace a implementace osvědčených postupů a metodik:
+ 3.  Identifikace a implementace osvědčených postupů a metodik:
 
-- Regresní testování: Ověření, že nové změny neovlivní stávající funkcionality.
-- Sanity testing (bugfix): Opětovné testování po opravě chyb.
-- Automatizace testovacích procesů: Zavedení nástrojů pro automatizované testování k zvýšení efektivity a pokrytí.
-- Pravidelné code reviews: Zajištění kvality kódu prostřednictvím pravidelných kontrol.
+        - Regresní testování: Ověření, že nové změny neovlivní stávající funkcionality.
+        - Sanity testing (bugfix): Opětovné testování po opravě chyb.
+        - Automatizace testovacích procesů: Zavedení nástrojů pro automatizované testování k zvýšení efektivity a pokrytí.
+        - Pravidelné code reviews: Zajištění kvality kódu prostřednictvím pravidelných kontrol.
 
-4.  Doporučení pro implementaci nástrojů a technologií pro:
+ 4.  Doporučení pro implementaci nástrojů a technologií pro:
 
-- automatizované testování
-- CI/CD procesy
-- testování výkonu (performance testy) v JS v Grafana k6
-- integrační testy
-- testování API
-- testování uživatelského rozhraní z hlediska srozumitelnosti a vizuálního dojmu
-- testování použitelnosti a přívětivosti aplikace
-- testování spouštění a běhu aplikace: Hodnocení, jak se software spouští a běží na podporovaných prohlížečích a zařízeních, včetně času potřebného ke spuštění
+        - automatizované testování
+        - CI/CD procesy
+        - testování výkonu (performance testy) v JS v Grafana k6
+        - integrační testy
+        - testování API
+        - testování uživatelského rozhraní z hlediska srozumitelnosti a vizuálního dojmu
+        - testování použitelnosti a přívětivosti aplikace
+        - testování spouštění a běhu aplikace: Hodnocení, jak se software spouští a běží na podporovaných prohlížečích a zařízeních, včetně času potřebného ke spuštění
 
 ### 3.2.3 Potenciální rizika testovacího procesu
 
