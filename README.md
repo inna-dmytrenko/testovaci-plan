@@ -803,7 +803,3 @@ Níže jsou uvedeny klíčové oblasti zaměřené na zlepšení a strategické 
   </tr>
 </table>
 
-
-  
-
-závěr?
