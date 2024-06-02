@@ -106,8 +106,6 @@ Projekt je definován ve spolupráci zákazníka a Product Ownera, přičemž ob
 |                               | Newsletter subscription             | ![#ffcc00](https://via.placeholder.com/15/ffcc00/000000?text=+) Medium |
 |                               | Language switcher                   | ![#ffcc00](https://via.placeholder.com/15/ffcc00/000000?text=+) Medium |
 
-
-Funkce
 <table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse;">
   <tr>
     <th>Funkce</th>
@@ -245,13 +243,6 @@ Funkce
 
 
 
-
-
-
-
-
-
-
 ## 2.2 User stories – statické prvky aplikace
 
 
@@ -351,15 +342,9 @@ Zhruba týden před konáním Hackathonu jsme naplánovali schůzku spolu s naš
 1.  Nebudeme mít SCRUM Mastera
       
 
-          a. Vyhovovala nám definice SCRUM týmu jako samořiditelné jednotky s
-          důrazem na vzájemnou spolupráci. V rámci Digitální akademie jsme
-          absolvovaly tři sprinty, během nichž jsme zjistily, že v našich
-          podmínkách SCRUM Master neplní roli tak, jak je obvykle definována
-          (tj. spíše jako kouč). Tři z nás měly možnost si tuto roli během
-          sprintů vyzkoušet. Vzhledem k nedostatku zkušeností s touto seniorní
-          pozicí jsme však v některých sprintech nechtěně sklouzly k tomu, že
-          SCRUM Master fungoval spíše jako projektový manažer, který zadává
-          úkoly. Tohoto přístupu jsme se chtěly vyvarovat.
+        
+
+     a. Vyhovovala nám definice SCRUM týmu jako samořiditelné jednotky s důrazem na vzájemnou spolupráci. V rámci Digitální akademie jsme absolvovaly tři sprinty, během nichž jsme zjistily, že v našich podmínkách SCRUM Master neplní roli tak, jak je obvykle definována (tj. spíše jako kouč). Tři z nás měly možnost si tuto roli během sprintů vyzkoušet. Vzhledem k nedostatku zkušeností s touto seniorní pozicí jsme však v některých sprintech nechtěně sklouzly k tomu, že SCRUM Master fungoval spíše jako projektový manažer, který zadává úkoly. Tohoto přístupu jsme se chtěly vyvarovat.
 
     
 
@@ -367,7 +352,7 @@ Zhruba týden před konáním Hackathonu jsme naplánovali schůzku spolu s naš
 
   
 
- b. Zohlednily jsme také skutečnost, že Hackathon je jednodenní projekt,
+    b. Zohlednily jsme také skutečnost, že Hackathon je jednodenní projekt,
    a proto nebyla role SCRUM Mastera tak nezbytná. Namísto toho jsme
    potřebovaly maximalizovat počet člověkohodin věnovaných samotnému
    testování a souvisejícím činnostem. Na druhou stranu jsme již měly
@@ -381,9 +366,8 @@ Zhruba týden před konáním Hackathonu jsme naplánovali schůzku spolu s naš
 
  2.  Příprava podkladů a dokumentace:
     
- a. Sdílený dokument:
-   
-   
+    a. Sdílený dokument:
+    
    
     - Vzorové šablony pro test case a bug report
      
@@ -400,28 +384,24 @@ Zhruba týden před konáním Hackathonu jsme naplánovali schůzku spolu s naš
      -   Odkaz na uvedený [Checklist]
 
 (https://docs.google.com/spreadsheets/d/15ME-jIUTQBHlJ_v-eYZdHrpyr3_4OLuc/edit#gid=1696534826)
+     
+
+   d.  Individuální příprava
+   
+ -  Každá z nás se zaměřila na oblasti, které ji nejvíce zajímaly z hard
+   skills,    které jsme se v akademii učily, a ty jsme v rámci našich
+   možností dále rozvíjely
+
+   c.  Připravené základní podklady s ohledem na neznalost zadání:
     
 
-  
-
-2.  Individuální příprava
+-     Poznámky k testování SQL
     
-
--   Každá z nás se zaměřila na oblasti, které ji nejvíce zajímaly z hard skills, které jsme se v akademii učily, a ty jsme v rámci našich možností dále rozvíjely
+-     Requesty pro API
     
-
-  
-
-3.  Připravené základní podklady s ohledem na neznalost zadání:
+-     Šablony pro automatizované testy
     
-
--   Poznámky k testování SQL
-    
--   Requesty pro API
-    
--   Šablony pro automatizované testy
-    
--   Tabulky pro risk-based analýzu
+-     Tabulky pro risk-based analýzu
     
 
   
@@ -434,13 +414,13 @@ Zhruba týden před konáním Hackathonu jsme naplánovali schůzku spolu s naš
 -   Aktivity:
     
 
--   Prostředí aplikace a analýza aplikace, exploratory testing
+    -   Prostředí aplikace a analýza aplikace, exploratory testing
     
--   Dokumentace v systému Jira
+    -   Dokumentace v systému Jira
     
--   Prostudování dostupných podkladů
+     -   Prostudování dostupných podkladů
     
--   Příprava materiálů potřebných pro testování
+    -   Příprava materiálů potřebných pro testování
     
 
   
@@ -504,152 +484,145 @@ Analýza aplikace počíná prostudováním obchodních a technických požadavk
   
 
 Hlavním cílem je test těch komponent aplikace, které jsou označeny jako vysoce prioritní a souvisejí se základní funkčností aplikace. Jedná se konkrétně o následující user stories, ke kterým bude přiřazen konkrétní člen týmu:
+Ось HTML-код для таблиці, яку ви надали:
 
-Funkce
 
-Komponenty
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse;">
+  <tr>
+    <th>Funkce</th>
+    <th>Komponenty</th>
+    <th>Priorita</th>
+    <th>Assigned</th>
+  </tr>
+  <tr>
+    <td rowspan="3">Reservation process</td>
+    <td>Search for available rooms</td>
+    <td style="background-color: #ff0000;">Highest</td>
+    <td>Petra S.</td>
+  </tr>
+  <tr>
+    <td>Main page room reservation</td>
+    <td style="background-color: #ff0000;">Highest</td>
+    <td>Markéta Ch.</td>
+  </tr>
+  <tr>
+    <td>Reservation of room from list of available rooms</td>
+    <td style="background-color: #ff0000;">Highest</td>
+    <td>Petra S.</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Checkout</td>
+    <td>Shopping cart</td>
+    <td style="background-color: #ff0000;">Highest</td>
+    <td>Michaela Š.</td>
+  </tr>
+  <tr>
+    <td>Checkout page</td>
+    <td style="background-color: #ff0000;">Highest</td>
+    <td>Eva A.</td>
+  </tr>
+  <tr>
+    <td>Payment methods</td>
+    <td style="background-color: #ff0000;">Highest</td>
+    <td>Inna D.</td>
+  </tr>
+  <tr>
+    <td>Online payment</td>
+    <td style="background-color: #ff0000;">Highest</td>
+    <td>Inna D.</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Non functional requirements</td>
+    <td>Website protocol</td>
+    <td style="background-color: #ff0000;">Highest</td>
+    <td>Simona P. J.</td>
+  </tr>
+  <tr>
+    <td>GDPR</td>
+    <td style="background-color: #ff0000;">Highest</td>
+    <td>Simona P. J.</td>
+  </tr>
+</table>
 
-Priorita
-
-Assigned
-
-Reservation process
-
-Search for available rooms
-
-Highest
-
-Petra S.
-
-Main page room reservation
-
-Highest
-
-Markéta Ch.
-
-Reservation of room from list of available rooms
-
-Highest
-
-Petra S.
-
-Checkout
-
-Shopping cart
-
-Highest
-
-Michaela Š.
-
-Checkout page
-
-Highest
-
-Eva A.
-
-Payment methods
-
-Highest
-
-Inna D.
-
-Online payment
-
-Highest
-
-Inna D.
-
-Non functional requirements
-
-Website protocol
-
-Highest
-
-Simona P. J.
-
-GDPR
-
-Highest
-
-Simona P. J.
-
-  
 
 ### 3.1.3 Identifikace testovacích nástrojů a prostředí
 
-Funkce
 
-Nástroj
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse;">
+  <tr>
+    <th>Funkce</th>
+    <th>Nástroj</th>
+  </tr>
+  <tr>
+    <td>Reportování testovacích scénářů a chyb</td>
+    <td>Jira<br>Zephyr – doplněk k systému Jira</td>
+  </tr>
+  <tr>
+    <td>Testování na API vrstvě</td>
+    <td>Postman</td>
+  </tr>
+  <tr>
+    <td>Automatizované testování</td>
+    <td>Visual Studio Code<br>Playwright</td>
+  </tr>
+  <tr>
+    <td>Vytvoření zálohy</td>
+    <td>Git Kraken<br>Github</td>
+  </tr>
+  <tr>
+    <td>Práce s databází aplikace</td>
+    <td>MySQL</td>
+  </tr>
+  <tr>
+    <td style="background-color: #ffffcc;">Doplňkové</td>
+    <td>DevTools<br>Chat GPT v. 4.0<br>Codeium – doplněk pro VS Code</td>
+  </tr>
+</table>
 
-Reportování testovacích scénářů a chyb
-
-Jira
-
-Zephyr – doplněk k systému Jira
-
-Testování na API vrstvě
-
-Postman
-
-Automatizované testování
-
-Visual Studio Code
-
-Playwright
-
-Vytvoření zálohy
-
-Git Kraken
-
-Github
-
-Práce s databází aplikace
-
-MySQL
-
-Doplňkové
-
-DevTools
-
-Chat GPT v. 4o
-
-Codeium – doplněk pro VS Code
 
   
 
 ### 3.1.4 Seznam prohlížečů a zařízení pro testování
 
-Prohlížeče
 
-  
+<div style="display: flex;">
+  <table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; margin-right: 20px;">
+    <tr>
+      <th style="background-color: #cce5ff;">Prohlížeče</th>
+    </tr>
+    <tr>
+      <td>Chrome</td>
+    </tr>
+    <tr>
+      <td>Firefox</td>
+    </tr>
+    <tr>
+      <td>Safari</td>
+    </tr>
+    <tr>
+      <td>Edge</td>
+    </tr>
+  </table>
 
-Zařízení
+  <table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse;">
+    <tr>
+      <th style="background-color: #e6ffe6;">Zařízení</th>
+    </tr>
+    <tr>
+      <td>Desktop – Windows 10</td>
+    </tr>
+    <tr>
+      <td>Desktop – macOS Sonoma 14.4.1</td>
+    </tr>
+    <tr>
+      <td>Android zařízení</td>
+    </tr>
+    <tr>
+      <td>iOS zařízení</td>
+    </tr>
+  </table>
+</div>
 
-Chrome
-
-  
-
-Desktop – Windows 10
-
-Firefox
-
-  
-
-Desktop – macOS Sonoma 14.4.1
-
-Safari
-
-  
-
-Android zařízení
-
-Edge
-
-  
-
-iOS zařízení
-
-  
 
 ### 3.1.5 Testovací postup
 
@@ -793,47 +766,45 @@ Níže jsou uvedeny klíčové oblasti zaměřené na zlepšení a strategické 
 
   
 
-Riziko
 
-Dopad
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse;">
+  <tr>
+    <th style="background-color: #ffcccc;">Riziko</th>
+    <th style="background-color: #ffcccc;">Dopad</th>
+    <th style="background-color: #ffcccc;">Preventivní opatření</th>
+  </tr>
+  <tr>
+    <td>Testovací tým nemá aktuální a platné dokumenty</td>
+    <td>Nesprávné testování, možné přehlédnutí chyb</td>
+    <td>Zajistit, aby tým měl vždy přístup k aktuálním dokumentům</td>
+  </tr>
+  <tr>
+    <td>Nedostatek potřebného vybavení, nástrojů, zařízení a softwaru</td>
+    <td>Zpoždění testovacího procesu, neúplné testování</td>
+    <td>Připravit a zajistit veškeré potřebné vybavení před zahájením testování</td>
+  </tr>
+  <tr>
+    <td>Kritické chyby nejsou opraveny včas</td>
+    <td>Vysoké riziko výskytu závažných problémů v produkci</td>
+    <td>Opravit všechny kritické chyby co nejdříve</td>
+  </tr>
+  <tr>
+    <td>Chybí poznámky k aktualizaci aplikace nebo jsou nedostatečné</td>
+    <td>Nejasnosti ohledně nových funkcí a změn, riziko nesprávného použití softwaru</td>
+    <td>Přikládat poznámky k vydání ke každé nové verzi softwaru, vysvětlit nové prvky a jejich dopad</td>
+  </tr>
+  <tr>
+    <td>Neplánované a neprojednané změny a úpravy aplikace</td>
+    <td>Potenciální destabilizace aplikace, nesoulad s původními požadavky</td>
+    <td>Zavést proces schvalování a dokumentace všech změn a úprav před jejich implementací</td>
+  </tr>
+  <tr>
+    <td>Neprojednané změny v softwaru používaného při vývoji aplikace</td>
+    <td>Riziko nesouladu mezi vývojem a testovacím týmem, zvýšené náklady na redesign</td>
+    <td>Zajistit, aby všechny změny v požadavcích byly projednány a schváleny relevantními stranami</td>
+  </tr>
+</table>
 
-Preventivní opatření
-
-Testovací tým nemá aktuální a platné dokumenty
-
-Nesprávné testování, možné přehlédnutí chyb
-
-Zajistit, aby tým měl vždy přístup k aktuálním dokumentům
-
-Nedostatek potřebného vybavení, nástrojů, zařízení a softwaru
-
-Zpoždění testovacího procesu, neúplné testování
-
-Připravit a zajistit veškeré potřebné vybavení před zahájením testování
-
-Kritické chyby nejsou opraveny včas
-
-Vysoké riziko výskytu závažných problémů v produkci
-
-Opravit všechny kritické chyby co nejdříve
-
-Chybí poznámky k aktualizaci aplikace nebo jsou nedostatečné
-
-Nejasnosti ohledně nových funkcí a změn, riziko nesprávného použití softwaru
-
-Přikládat poznámky k vydání ke každé nové verzi softwaru, vysvětlit nové prvky a jejich dopad
-
-Neplánované a neprojednané změny a úpravy aplikace
-
-Potenciální destabilizace aplikace, nesoulad s původními požadavky
-
-Zavést proces schvalování a dokumentace všech změn a úprav před jejich implementací
-
-Neprojednané změny v softwaru používaného při vývoji aplikace
-
-Riziko nesouladu mezi vývojem a testovacím týmem, zvýšené náklady na redesign
-
-Zajistit, aby všechny změny v požadavcích byly projednány a schváleny relevantními stranami
 
   
 
