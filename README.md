@@ -8,39 +8,39 @@
 
 Obsah
 
-[1 Úvod 3](https://docs.google.com/document/d/1IIoZbd55stN592l8u5aTmfl6JA5bJ5otzYtUvpe0jxY/edit#heading=h.oevkvjvd8x2p)
+[1 Úvod 3](#1-úvod)
 
-[1.1 Obecné informace o projektu 3](https://docs.google.com/document/d/1IIoZbd55stN592l8u5aTmfl6JA5bJ5otzYtUvpe0jxY/edit#heading=h.c6l4snu0zcje)
+[1.1 Obecné informace o projektu 3](#11-obecné-informace-o-projektu)
 
-[1.2 Cíle testovacího plánu 4](https://docs.google.com/document/d/1IIoZbd55stN592l8u5aTmfl6JA5bJ5otzYtUvpe0jxY/edit#heading=h.jlvwjhwto0hk)
+[1.2 Cíle testovacího plánu 4](#12-cíle-testovacího-plánu)
 
-[2 Rozsah projektu 4](https://docs.google.com/document/d/1IIoZbd55stN592l8u5aTmfl6JA5bJ5otzYtUvpe0jxY/edit#heading=h.qq3e6fu5ep8)
+[2 Rozsah projektu 4](#2-rozsah-projektu)
 
-[2.1 User stories – funkce aplikace 4](https://docs.google.com/document/d/1IIoZbd55stN592l8u5aTmfl6JA5bJ5otzYtUvpe0jxY/edit#heading=h.c7y4iasgi5db)
+[2.1 User stories – funkce aplikace 4](#21-user-stories--funkce-aplikace)
 
-[2.2 User stories – statické prvky aplikace 6](https://docs.google.com/document/d/1IIoZbd55stN592l8u5aTmfl6JA5bJ5otzYtUvpe0jxY/edit#heading=h.v0fzlargudk4)
+[2.2 User stories – statické prvky aplikace 6](#22-user-stories--statické-prvky-aplikace)
 
-[3 Horizonty vývoje a testování aplikace 6](https://docs.google.com/document/d/1IIoZbd55stN592l8u5aTmfl6JA5bJ5otzYtUvpe0jxY/edit#heading=h.gkybn4wbposs)
+[3 Horizonty vývoje a testování aplikace 6](#3-horizonty-vývoje-a-testování-aplikace)
 
-[3.1 Krátkodobý plán projektu – Hackathon 7](https://docs.google.com/document/d/1IIoZbd55stN592l8u5aTmfl6JA5bJ5otzYtUvpe0jxY/edit#heading=h.bjuvuirwhqxt)
+[3.1 Krátkodobý plán projektu – Hackathon 7](#31-krátkodobý-horizont-projektu--hackathon)
 
-[3.1.1 Týmová příprava 7](https://docs.google.com/document/d/1IIoZbd55stN592l8u5aTmfl6JA5bJ5otzYtUvpe0jxY/edit#heading=h.bejxt733ql8a)
+[3.1.1 Týmová příprava 7](#311-týmová-příprava)
 
-[3.1.2 Stanovení cílů a rozsahu testování 9](https://docs.google.com/document/d/1IIoZbd55stN592l8u5aTmfl6JA5bJ5otzYtUvpe0jxY/edit#heading=h.jaydn8nzsuk1)
+[3.1.2 Stanovení cílů a rozsahu testování 9](#312-stanovení-cílů-a-rozsahu-testování)
 
-[3.1.3 Identifikace testovacích nástrojů a prostředí 10](https://docs.google.com/document/d/1IIoZbd55stN592l8u5aTmfl6JA5bJ5otzYtUvpe0jxY/edit#heading=h.ekxgmrmmcdfx)
+[3.1.3 Identifikace testovacích nástrojů a prostředí 10](#313-identifikace-testovacích-nástrojů-a-prostředí)
 
-[3.1.4 Seznam prohlížečů a zařízení pro testování 10](https://docs.google.com/document/d/1IIoZbd55stN592l8u5aTmfl6JA5bJ5otzYtUvpe0jxY/edit#heading=h.1labu28blrqb)
+[3.1.4 Seznam prohlížečů a zařízení pro testování 10](#314-seznam-prohlížečů-a-zařízení-pro-testování)
 
-[3.1.5 Testovací postup 11](https://docs.google.com/document/d/1IIoZbd55stN592l8u5aTmfl6JA5bJ5otzYtUvpe0jxY/edit#heading=h.ikdwojtdspv)
+[3.1.5 Testovací postup 11](#315-testovací-postup)
 
-[3.2 Dlouhodobý plán projektu 12](https://docs.google.com/document/d/1IIoZbd55stN592l8u5aTmfl6JA5bJ5otzYtUvpe0jxY/edit#heading=h.sney2ncuoji4)
+[3.2 Dlouhodobý plán projektu 12](#32-dlouhodobý-plán-projektu)
 
-[3.2.1 Kontinuální zlepšování 12](https://docs.google.com/document/d/1IIoZbd55stN592l8u5aTmfl6JA5bJ5otzYtUvpe0jxY/edit#heading=h.51y30gzeabrm)
+[3.2.1 Kontinuální zlepšování 12](#321-kontinuální-zlepšování)
 
-[3.2.2 Strategické plánování pro budoucí verze a aktualizace aplikace 12](https://docs.google.com/document/d/1IIoZbd55stN592l8u5aTmfl6JA5bJ5otzYtUvpe0jxY/edit#heading=h.8bo8brjm425n)
+[3.2.2 Strategické plánování pro budoucí verze a aktualizace aplikace 12](#322-strategické-plánování-pro-budoucí-verze-a-aktualizace-aplikace)
 
-[3.2.3 Potenciální rizika testovacího procesu 13](https://docs.google.com/document/d/1IIoZbd55stN592l8u5aTmfl6JA5bJ5otzYtUvpe0jxY/edit#heading=h.u8wmla9minga)
+[3.2.3 Potenciální rizika testovacího procesu 13](#323-potenciální-rizika-testovacího-procesu)
 
 # 1 Úvod
 
