@@ -381,9 +381,7 @@ Zhruba týden před konáním Hackathonu jsme naplánovali schůzku spolu s naš
      
      -   Jak efektivně pojmenovávat test case a bug report, aby byly snadno pochopitelné a předešlo se duplicitám
      
-     -   Odkaz na uvedený [Checklist]
-
-(https://docs.google.com/spreadsheets/d/15ME-jIUTQBHlJ_v-eYZdHrpyr3_4OLuc/edit#gid=1696534826)
+     -   Odkaz na uvedený [Checklist](https://docs.google.com/spreadsheets/d/15ME-jIUTQBHlJ_v-eYZdHrpyr3_4OLuc/edit#gid=1696534826)
      
 
    d.  Individuální příprava
