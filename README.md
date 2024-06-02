@@ -662,7 +662,7 @@ Zdroj: https://www.oberlo.com/statistics/browser-market-share)
 
     - Vytváření testovacích scénářů na základě požadavků.
     - Psaní podrobných testovacích případů s jasnými vstupy, kroky a očekávanými výsledky.
-    - Vytvoření requestů pro testování na API vrstvě - HODIT DO PROVEDENÍ - [link](https://drive.google.com/file/d/19Din16TSh9rZHc4NBPOnZJbIgGTutAMP/view?usp=share_link)
+    - Vytvoření requestů pro testování na API vrstvě
     - Vytvoření automatizovaných testů
 
 2.  Provedení testů:
