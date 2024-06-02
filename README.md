@@ -8,41 +8,41 @@
 
 Obsah
 
-[1 Úvod 3](#1-úvod)
+[1 Úvod](#1-úvod)
 
-[1.1 Obecné informace o projektu 3](#11-obecné-informace-o-projektu)
+[1.1 Obecné informace o projektu](#11-obecné-informace-o-projektu)
 
-[1.2 Cíle testovacího plánu 4](#12-cíle-testovacího-plánu)
+[1.2 Cíle testovacího plánu](#12-cíle-testovacího-plánu)
 
-[2 Rozsah projektu 4](#2-rozsah-projektu)
+[2 Rozsah projektu](#2-rozsah-projektu)
 
-[2.1 User stories – funkce aplikace 4](#21-user-stories--funkce-aplikace)
+[2.1 User stories – funkce aplikace](#21-user-stories--funkce-aplikace)
 
-[2.2 User stories – statické prvky aplikace 6](#22-user-stories--statické-prvky-aplikace)
+[2.2 User stories – statické prvky aplikace](#22-user-stories--statické-prvky-aplikace)
 
-[3 Horizonty vývoje a testování aplikace 6](#3-horizonty-vývoje-a-testování-aplikace)
+[3 Horizonty vývoje a testování aplikace](#3-horizonty-vývoje-a-testování-aplikace)
 
-[3.1 Krátkodobý plán projektu – Hackathon 7](#31-krátkodobý-horizont-projektu--hackathon)
+[3.1 Krátkodobý plán projektu – Hackathon](#31-krátkodobý-horizont-projektu--hackathon)
 
-[3.1.1 Týmová příprava 7](#311-týmová-příprava)
+[3.1.1 Týmová příprava](#311-týmová-příprava)
 
-[3.1.2 Stanovení cílů a rozsahu testování 9](#312-stanovení-cílů-a-rozsahu-testování)
+[3.1.2 Stanovení cílů a rozsahu testování](#312-stanovení-cílů-a-rozsahu-testování)
 
-[3.1.3 Identifikace testovacích nástrojů a prostředí 10](#313-identifikace-testovacích-nástrojů-a-prostředí)
+[3.1.3 Identifikace testovacích nástrojů a prostředí](#313-identifikace-testovacích-nástrojů-a-prostředí)
 
-[3.1.4 Seznam prohlížečů a zařízení pro testování 10](#314-seznam-prohlížečů-a-zařízení-pro-testování)
+[3.1.4 Seznam prohlížečů a zařízení pro testování](#314-seznam-prohlížečů-a-zařízení-pro-testování)
 
-[3.1.5 Testovací postup 11](#315-testovací-postup)
+[3.1.5 Testovací postup](#315-testovací-postup)
 
-[3.2 Dlouhodobý plán projektu 12](#32-dlouhodobý-plán-projektu)
+[3.2 Dlouhodobý plán projektu](#32-dlouhodobý-plán-projektu)
 
-[3.2.1 Kontinuální zlepšování 12](#321-kontinuální-zlepšování)
+[3.2.1 Kontinuální zlepšování](#321-kontinuální-zlepšování)
 
-[3.2.2 Strategické plánování pro budoucí verze a aktualizace aplikace 12](#322-strategické-plánování-pro-budoucí-verze-a-aktualizace-aplikace)
+[3.2.2 Strategické plánování pro budoucí verze a aktualizace aplikace](#322-strategické-plánování-pro-budoucí-verze-a-aktualizace-aplikace)
 
-[3.2.3 Potenciální rizika testovacího procesu 13](#323-potenciální-rizika-testovacího-procesu)
+[3.2.3 Potenciální rizika testovacího procesu](#323-potenciální-rizika-testovacího-procesu)
 
-# 1 Úvod (#1-úvod)
+# 1 Úvod 
 
 ## 1.1 Obecné informace o projektu
 
@@ -58,11 +58,11 @@ Tento testovací plán detailně popisuje postupy a metody, které budou použit
 
 ## 1.2 Cíle testovacího plánu
 
-- Identifikace informací o projektu a softwarových komponent, které budou testovány
-- Doporučení a popis testovacích strategií, které budou použity během testování
-- Identifikace potřebných zdrojů (personál, nástroje) a odhad úsilí potřebného k testování (estimace)
-- Vytvoření seznamu výstupů (dokumentů) z testování projektu
-- Návrh testovací strategie z dlouhodobého hlediska (budoucnost a udržitelnost projektu)
+    - Identifikace informací o projektu a softwarových komponent, které budou testovány
+    - Doporučení a popis testovacích strategií, které budou použity během testování
+    - Identifikace potřebných zdrojů (personál, nástroje) a odhad úsilí potřebného k testování (estimace)
+    - Vytvoření seznamu výstupů (dokumentů) z testování projektu
+    - Návrh testovací strategie z dlouhodobého hlediska (budoucnost a udržitelnost projektu)
 
 # 2 Rozsah projektu
 
@@ -423,50 +423,53 @@ Zhruba týden před konáním Hackathonu jsme naplánovali schůzku spolu s naš
 
     a. Sdílený dokument:
 
-    - Vzorové šablony pro test case a bug report
+      - Vzorové šablony pro test case a bug report
 
-    - Myšlenková mapa
+      - Myšlenková mapa
 
-    - Struktura složek v Postmanu pro případné API testy
+      - Struktura složek v Postmanu pro případné API testy
 
-    - Shrnutí pravidel odsouhlasených během uplynulých tří sprintů
+      - Shrnutí pravidel odsouhlasených během uplynulých tří sprintů
 
-    - Na co si dávat pozor při reportování v systému Jira
+      - Na co si dávat pozor při reportování v systému Jira
 
-    - Jak efektivně pojmenovávat test case a bug report, aby byly snadno pochopitelné a předešlo se duplicitám
+      - Jak efektivně pojmenovávat test case a bug report, aby byly snadno pochopitelné a předešlo se duplicitám
 
-    - Odkaz na uvedený [Checklist](https://docs.google.com/spreadsheets/d/15ME-jIUTQBHlJ_v-eYZdHrpyr3_4OLuc/edit#gid=1696534826)
+      - Odkaz na uvedený [Checklist](https://docs.google.com/spreadsheets/d/15ME-jIUTQBHlJ_v-eYZdHrpyr3_4OLuc/edit#gid=1696534826)
 
-d. Individuální příprava
+    d. Individuální příprava
 
-- Každá z nás se zaměřila na oblasti, které ji nejvíce zajímaly z hard
-  skills, které jsme se v akademii učily, a ty jsme v rámci našich
-  možností dále rozvíjely
+      - Každá z nás se zaměřila na oblasti, které ji nejvíce zajímaly z hard
+      skills, které jsme se v akademii učily, a ty jsme v rámci našich
+      možností dále rozvíjely
 
-c. Připravené základní podklady s ohledem na neznalost zadání:
+    c. Připravené základní podklady s ohledem na neznalost zadání:
 
--     Poznámky k testování SQL
--     Requesty pro API
--     Šablony pro automatizované testy
--     Tabulky pro risk-based analýzu
+      - Poznámky k testování SQL
+      - Requesty pro API
+      - Šablony pro automatizované testy
+      - Tabulky pro risk-based analýzu
 
 3.  Individuální seznámení s aplikací
 
-- Doba trvání: minimálně dvě hodiny
-- Aktivity:
+      - Doba trvání: minimálně dvě hodiny
+    
+      - Aktivity:
 
-  - Prostředí aplikace a analýza aplikace, exploratory testing
+      - Prostředí aplikace a analýza aplikace, exploratory testing
 
-  - Dokumentace v systému Jira
+      - Dokumentace v systému Jira
 
-  - Prostudování dostupných podkladů
+      - Prostudování dostupných podkladů
 
-  - Příprava materiálů potřebných pro testování
+      - Příprava materiálů potřebných pro testování
 
 4.  Předem nastavený proces
 
-- Stand-upy po cca 45 minutách maximálně soustředěné práce
-- Hlídání délky trvání stand-upu a neodbíhání od témat společných všem
+      - Stand-upy po cca 45 minutách maximálně soustředěné práce
+      
+      - Hlídání délky trvání stand-upu a neodbíhání od témat společných všem
+
 
 ### 3.1.2 Stanovení cílů a rozsahu testování
 
@@ -672,29 +675,29 @@ Hlavním cílem je test těch komponent aplikace, které jsou označeny jako vys
 
 1.  Příprava testovacích případů:
 
-- Vytváření testovacích scénářů na základě požadavků.
-- Psaní podrobných testovacích případů s jasnými vstupy, kroky a očekávanými výsledky.
-- Vytvoření requestů pro testování na API vrstvě - HODIT DO PROVEDENÍ - [link](https://drive.google.com/file/d/19Din16TSh9rZHc4NBPOnZJbIgGTutAMP/view?usp=share_link)
-- Vytvoření automatizovaných testů
+    - Vytváření testovacích scénářů na základě požadavků.
+    - Psaní podrobných testovacích případů s jasnými vstupy, kroky a očekávanými výsledky.
+    - Vytvoření requestů pro testování na API vrstvě - HODIT DO PROVEDENÍ - [link](https://drive.google.com/file/d/19Din16TSh9rZHc4NBPOnZJbIgGTutAMP/view?usp=share_link)
+    - Vytvoření automatizovaných testů
 
 2.  Provedení testů:
 
-- Funkční testování: Ověření, že všechny funkce softwaru fungují podle specifikací.
-- Testování kompatibility: Ověření, že software funguje správně na různých webových prohlížečích a různých zařízeních.
-- Testování bezpečnosti: Ověření protokolu webové aplikace a právních norem v souvislosti s cílem aplikace.
-- Manuální provádění testovacích případů podle předem definovaných kroků.
-- Spuštění automatizovaných testů.
-- Dokumentace výsledků každého testovacího případu.
+    - Funkční testování: Ověření, že všechny funkce softwaru fungují podle specifikací.
+    - Testování kompatibility: Ověření, že software funguje správně na různých webových prohlížečích a různých zařízeních.
+    - Testování bezpečnosti: Ověření protokolu webové aplikace a právních norem v souvislosti s cílem aplikace.
+    - Manuální provádění testovacích případů podle předem definovaných kroků.
+    - Spuštění automatizovaných testů.
+    - Dokumentace výsledků každého testovacího případu.
 
 3.  Zaznamenání chyb:
 
-- Identifikace a dokumentace chyb a nedostatků.
-- Vytváření podrobných bug reportů s kroky k replikaci, očekávaným a aktuálním výsledkem a prioritou chyby.
+    - Identifikace a dokumentace chyb a nedostatků.
+    - Vytváření podrobných bug reportů s kroky k replikaci, očekávaným a aktuálním výsledkem a prioritou chyby.
 
 4.  Příprava dokumentace:
 
-- Sestavení zprávy o výsledcích testování, včetně testovacího plánu a hlášení o chybách.
-- Shrnutí klíčových nálezů, metrik a doporučení.
+    - Sestavení zprávy o výsledcích testování, včetně testovacího plánu a hlášení o chybách.
+    - Shrnutí klíčových nálezů, metrik a doporučení.
 
 ## 3.2 Dlouhodobý plán projektu
 
@@ -704,8 +707,8 @@ Níže jsou uvedeny klíčové oblasti zaměřené na zlepšení a strategické 
 
 1.  Analýza výsledků testování:
 
-- Nutné pro identifikaci slabých míst a oblastí, které potřebují zlepšení.
-- Používat tyto analýzy k formulování konkrétních kroků pro zvýšení kvality softwaru.
+  - Nutné pro identifikaci slabých míst a oblastí, které potřebují zlepšení.
+  - Používat tyto analýzy k formulování konkrétních kroků pro zvýšení kvality softwaru.
 
 3.  Aktualizace testovacích případů a strategií:
 
